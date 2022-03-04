@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Sacramento&display=swap');
+
+.nav1 {
+  position: sticky;
+  height: 200px;
+flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.imag{
+  height: 100px;
+  width: 100px;
+color: grey;
+  /* margin-top: 50px; */
+  /* margin-bottom: -150px; */
+}
+.nav {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 9vh;
+  align-items:flex-start;
+  z-index: 1;  
+}
+.nav > div {
+  color: grey;
+  font-size: medium;
+  font-family: Dancing Script;
+justify-content:center ;
+margin-right: 5%;
+}
+
+#logo {
+      font-family: "Trebuchet MS";
+  color: black;
+  font-size: 30px;
+text-decoration: none;
+/* margin-left: 500px; */
+/* padding-right: 40%; */
+/* margin-left: 200px; */
+}
+/* .div1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-left:4.5%;
+height: 20px;
+width: 20px;
+
+} */
+.links {
+  width: 100%;
+  padding: 30px;
+  margin-right: 20%;
+  margin-left: 5%;
+  display: flex;
+  height: 50px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.link:hover {
+  color: black;
+}
+.img{
+  height: 100px;
+  width: 100px;
+  color:#FAEFC3;
+
+}
+#nav {
+  list-style: none inside;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#nav li {
+  display: block;
+  position: relative;
+  float:inline-start;
+  font-family: "Arial";
+font-size: 15px;
+}
+
+#nav li a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  width: 130px;
+  /* this is the width of the menu items */
+  line-height: 35px;
+  /* this is the hieght of the menu items */
+  color: rgb(77, 74, 74);
+  /* list item font color */
+
+}
+#nav li a:hover{
+color: black;
+}
+
+#nav li li a {
+  font-size: 80%;
+}
+
+#nav ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  display: none;
+  background-color:rgb(229, 236, 240);
+
+}
+
+#nav li:hover ul ul {
+  display: none;
+}
+#nav li:hover ul {
+  display: block;
+
+}
+#nav li li:hover ul {
+  display: block;
+  margin-left: 125px;
+  margin-top: -35px;
+}
+.panier{
+  width: 50px;
+  height: 50px;
+}

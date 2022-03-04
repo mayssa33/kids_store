@@ -24,8 +24,9 @@ exports.getProduct=async(req,res)=>{
     
     // add products
     exports.addProducts = async (req, res) => {
-      try {
-        const newProduct = await new Product(req.body);
+      const {title,brand,souscategory,price,description,imageUrl,category,quantity}=req.body
+        try {
+        const newProduct = await new Product({title,brand,souscategory,price,description,imageUrl,category,quantity});
         newProduct.save();
         res.send(newProduct);
       } catch (error) {

@@ -1,0 +1,60 @@
+.container{
+color: black;
+text-decoration: none;
+font-family: "Lucida Console";
+display: inline-block;
+
+}
+.buy{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.buy1{
+	text-decoration: none;
+	/* font-family: "Lucida Console"; */
+	border:1px solid black;
+	color: rgb(255, 255, 255);
+	background-color: black;
+	width: 300px;
+  height: 100px;
+  /* box-sizing: border-box; */
+margin-right: 100px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+.buy1:hover{
+background-color: white;
+color: black;
+}
+.buy2{
+	text-decoration: none;
+	/* font-family: "Lucida Console"; */
+	border:1px solid black;
+	color: rgb(0, 0, 0);
+	/* background-color: black; */
+	width: 300px;
+  height: 100px;
+  /* box-sizing: border-box; */
+margin-right: 100px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 50px;
+padding-right: 50px;
+}
+.buy2:hover{
+	background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
+.titr{
+	font-size:25px;
+	font-family: "Lucida Console";
+margin-top: 35px;
+}
+.descri{
+	font-size: 20px;
+	color: grey;
+	margin-top:35px;
+}

@@ -10,7 +10,7 @@ export const getProducts = () => async (dispatch) => {
     type: GET_PRODUCTS,
   });
   try {
-    const {data} = await axios.get('http://localhost:5000/product/get_products');
+    const {data} = await axios.get('/product/get_products');
     console.log(data);
     dispatch({
       type: GET_PRODUCTS_SUCCESS,

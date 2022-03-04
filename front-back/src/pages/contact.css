@@ -1,0 +1,36 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    font-family: "Lucida Console";
+margin-left: 60px;
+margin-right: 60px;
+}
+.visit{
+    margin-top: 80px;
+    font-family: "Lucida Console";
+    font-size: 20px;
+    
+}
+.star{
+    text-decoration: underline  rgb(0, 0, 0) 2px;
+    color: white;
+}
+.text{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    color: grey;
+}
+.nom{
+    font-size: 20px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    color: black;
+margin-top: 50px;
+}
+#instaa{
+    margin-right: 30px;
+}

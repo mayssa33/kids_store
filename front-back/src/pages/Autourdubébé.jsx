@@ -6,19 +6,19 @@ import ProductList from './products/ProductList';
 
 
 
-const ShopCollection = () => {
+const Autourdubébé = () => {
     const dispatch = useDispatch();
-    const {products, loading} = useSelector((state) => state);
+    const {products, loading} = useSelector((state) => state.productReducer);
     console.log(products);
     useEffect(() => {
       dispatch(getProducts());
     }, []);
 
   return <div>
-      <h1>collection</h1>
+       
 <ProductList products={products}/>
 
     </div>;
 };
 
-export default ShopCollection;
+export default Autourdubébé;

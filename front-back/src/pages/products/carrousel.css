@@ -1,0 +1,36 @@
+.bouton{    
+        background-color: Transparent;
+        background-repeat:no-repeat;
+       
+        border-color: black;
+        cursor:pointer;
+        overflow: hidden;        
+        width: 120px;
+        color: black;
+        margin-bottom: 21%;
+
+     
+
+    }
+    .bouton:hover{
+        background-color:  transparent;
+        border-color: #807979;
+       color: black;
+    }
+  
+.img{
+    width: 1000px;
+    height: 500px;
+}
+.p{
+    color:black;
+    font-size: large;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 24px;
+}
+.carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

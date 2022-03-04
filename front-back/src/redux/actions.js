@@ -1,4 +1,4 @@
-import { LOGIN, LOGIN_FAIL, LOGIN_SUCCESS, REGISTER, REGISTER_FAIL, REGISTER_SUCCESS } from "./actionTypes"
+import { LOGIN, LOGIN_FAIL, LOGIN_SUCCESS, LOGOUT, REGISTER, REGISTER_FAIL, REGISTER_SUCCESS } from "./actionTypes"
 import axios from 'axios'
 
 export const registerUser=(newUser) => async(dispatch)=>{
@@ -25,6 +25,7 @@ export const loginUser=(User)=>async(dispatch)=>{
     })
     try {
         const {data}=await axios.post('/user/login',User);
+        console.log(data)
         localStorage.setItem('token',data.token)
         dispatch({
             type:LOGIN_SUCCESS,
@@ -36,4 +37,12 @@ export const loginUser=(User)=>async(dispatch)=>{
             payload: error.response.data,
         });
     }
+}
+
+
+export const logout = () => {
+    localStorage.removeItem('token')
+    return({
+        type:LOGOUT
+    })
 }
